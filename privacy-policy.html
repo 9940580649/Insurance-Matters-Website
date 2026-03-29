@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Privacy Policy — Insurance Matters Advisors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --blue:#1A4C7C;--blue-d:#0F3358;--blue-l:#EAF2FB;
+  --teal:#1A9BA1;--teal-l:#E0F5F6;
+  --gold:#D4AC0D;--gold-l:#FEF9E7;
+  --g100:#F1F4F8;--g200:#E2E8F0;--g400:#94A3B8;--g600:#475569;--g900:#0F172A;
+  --fh:'Plus Jakarta Sans',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--fh);color:var(--g600);background:#fff;line-height:1.75;font-size:15px}
+
+/* ── TOP BAR ── */
+.topbar{background:var(--blue-d);padding:10px 0;font-size:.78rem}
+.topbar-in{max-width:900px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.topbar a{color:rgba(255,255,255,.75);text-decoration:none;transition:color .2s}
+.topbar a:hover{color:#D4AC0D}
+.back-link{display:flex;align-items:center;gap:6px;font-weight:600;color:rgba(255,255,255,.85)!important}
+.back-link svg{flex-shrink:0}
+.topbar-r{color:rgba(255,255,255,.45);font-size:.72rem}
+
+/* ── HERO STRIP ── */
+.hero-strip{background:linear-gradient(135deg,#0a2744 0%,var(--blue) 55%,#1A7A80 100%);padding:52px 24px 44px;position:relative;overflow:hidden}
+.hero-strip::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(255,255,255,.04) 1px,transparent 0);background-size:32px 32px}
+.hero-inner{max-width:900px;margin:0 auto;position:relative}
+.doc-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.12);color:rgba(255,255,255,.85);font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:5px 14px;border-radius:100px;border:1px solid rgba(255,255,255,.2);margin-bottom:18px}
+h1{font-size:clamp(1.9rem,4vw,2.8rem);font-weight:800;color:#fff;line-height:1.15;margin-bottom:12px}
+.hero-meta{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:6px}
+.hm{font-size:.8rem;color:rgba(255,255,255,.6);display:flex;align-items:center;gap:6px}
+.hm svg{opacity:.6}
+
+/* ── COMMITMENT STRIP ── */
+.commit-strip{background:var(--teal-l);border-bottom:1px solid #c0e9eb;padding:0}
+.commit-list{max-width:900px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap;gap:0}
+.cm{display:flex;align-items:center;gap:9px;padding:14px 24px 14px 0;font-size:.82rem;font-weight:600;color:var(--teal);border-right:1px solid #c0e9eb;margin-right:24px}
+.cm:last-child{border-right:none;margin-right:0}
+.cm svg{flex-shrink:0;color:var(--teal)}
+
+/* ── LAYOUT ── */
+.page{max-width:900px;margin:0 auto;padding:0 24px 80px}
+
+/* ── TOC ── */
+.toc{background:var(--g100);border-radius:16px;padding:28px 32px;margin:40px 0 48px;border:1px solid var(--g200)}
+.toc-title{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin-bottom:16px}
+.toc-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 32px}
+.toc-grid a{font-size:.85rem;color:var(--g600);text-decoration:none;padding:3px 0;display:flex;align-items:center;gap:7px;transition:color .2s}
+.toc-grid a:hover{color:var(--teal)}
+.toc-grid a::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--teal);flex-shrink:0;opacity:.6}
+
+/* ── INTRO ── */
+.intro-box{background:var(--blue-l);border-left:4px solid var(--blue);border-radius:0 12px 12px 0;padding:18px 22px;margin-bottom:40px}
+.intro-box p{font-size:.92rem;color:var(--blue-d);line-height:1.75;margin:0}
+
+/* ── SECTIONS ── */
+.section{margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid var(--g200)}
+.section:last-of-type{border-bottom:none}
+.section-hd{display:flex;align-items:flex-start;gap:14px;margin-bottom:16px}
+.sec-num{min-width:36px;height:36px;background:var(--teal);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:800;color:#fff;flex-shrink:0;margin-top:2px}
+h2{font-size:1.1rem;font-weight:800;color:var(--g900);line-height:1.3}
+.section p{font-size:.92rem;line-height:1.8}
+.section ul{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+.section ul li{font-size:.92rem;display:flex;align-items:flex-start;gap:10px;padding:10px 14px;background:var(--g100);border-radius:8px;border-left:3px solid var(--teal)}
+.section ul li::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--teal);margin-top:7px;flex-shrink:0}
+
+/* ── DATA TABLE ── */
+.data-table{width:100%;border-collapse:collapse;margin-top:16px;font-size:.88rem}
+.data-table th{background:var(--blue);color:#fff;padding:11px 14px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em}
+.data-table th:first-child{border-radius:8px 0 0 0}
+.data-table th:last-child{border-radius:0 8px 0 0}
+.data-table td{padding:11px 14px;border-bottom:1px solid var(--g200);color:var(--g600);vertical-align:top}
+.data-table tr:nth-child(even) td{background:var(--g100)}
+.data-table tr:last-child td{border-bottom:none}
+.data-table tr:last-child td:first-child{border-radius:0 0 0 8px}
+.data-table tr:last-child td:last-child{border-radius:0 0 8px 0}
+.data-table td:first-child{font-weight:700;color:var(--g900);white-space:nowrap}
+
+/* ── HIGHLIGHT BOX ── */
+.highlight{background:var(--gold-l);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:16px 20px;margin-top:14px}
+.highlight p{font-size:.88rem;color:#7D6608;margin:0;line-height:1.7}
+.highlight strong{color:#5a4706}
+
+/* ── RIGHTS GRID ── */
+.rights-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.right-card{background:var(--g100);border-radius:10px;padding:14px 16px;border:1px solid var(--g200)}
+.right-card strong{display:block;font-size:.84rem;color:var(--g900);font-weight:700;margin-bottom:4px}
+.right-card span{font-size:.82rem;color:var(--g600)}
+
+/* ── CONTACT GRID ── */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.ci{background:var(--g100);border-radius:10px;padding:14px 16px;display:flex;align-items:flex-start;gap:11px;border:1px solid var(--g200)}
+.ci-ic{width:32px;height:32px;background:var(--blue-l);border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ci-ic svg{width:14px;height:14px;color:var(--blue)}
+.ci strong{display:block;font-size:.78rem;color:var(--g400);font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.ci span{font-size:.86rem;color:var(--g900);font-weight:500}
+.ci a{color:var(--blue);text-decoration:none}
+.ci a:hover{text-decoration:underline}
+
+/* ── FOOTER NOTE ── */
+.footer-note{background:var(--g100);border-radius:12px;padding:20px 24px;margin-top:48px;text-align:center;border:1px solid var(--g200)}
+.footer-note p{font-size:.78rem;color:var(--g400);line-height:1.7;margin:0}
+
+/* ── PRINT ── */
+@media print{
+  .topbar,.commit-strip{display:none}
+  .hero-strip{padding:24px 0;background:none!important}
+  h1{color:var(--blue)!important;font-size:2rem}
+  .page{max-width:100%;padding:0}
+  .section{page-break-inside:avoid}
+}
+@media(max-width:600px){
+  .toc-grid,.contact-grid,.rights-grid{grid-template-columns:1fr}
+  .commit-list{flex-direction:column;gap:0}
+  .cm{border-right:none;border-bottom:1px solid #c0e9eb;padding:10px 0;margin-right:0}
+  .cm:last-child{border-bottom:none}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-in">
+    <a href="index.html" class="back-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"/></svg>
+      Back to Website
+    </a>
+    <span class="topbar-r">insurancematters.in &nbsp;·&nbsp; info@insurancematters.in &nbsp;·&nbsp; +91 90353 54316</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero-strip">
+  <div class="hero-inner">
+    <div class="doc-badge">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Legal Document
+    </div>
+    <h1>Privacy Policy</h1>
+    <div class="hero-meta">
+      <span class="hm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Last Updated: March 2026</span>
+      <span class="hm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> IRDAI Registered Sub-Broker</span>
+      <span class="hm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> 9 Sections</span>
+    </div>
+  </div>
+</div>
+
+<!-- COMMITMENT STRIP -->
+<div class="commit-strip">
+  <div class="commit-list">
+    <div class="cm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg> We never sell your data</div>
+    <div class="cm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg> No spam, ever</div>
+    <div class="cm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg> You can request deletion anytime</div>
+    <div class="cm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg> Shared only for your insurance needs</div>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- TOC -->
+  <div class="toc">
+    <div class="toc-title">Contents</div>
+    <div class="toc-grid">
+      <a href="#s1">1. Information We Collect</a>
+      <a href="#s6">6. Your Rights</a>
+      <a href="#s2">2. How We Use Your Information</a>
+      <a href="#s7">7. Third-Party Links</a>
+      <a href="#s3">3. Sharing of Information</a>
+      <a href="#s8">8. Changes to This Policy</a>
+      <a href="#s4">4. Data Security</a>
+      <a href="#s9">9. Contact Us</a>
+      <a href="#s5">5. Cookies</a>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <div class="intro-box">
+    <p>Insurance Matters Advisors ("we", "us", or "our") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our website (<strong>insurancematters.in</strong>) or avail our services. Please read this policy carefully.</p>
+  </div>
+
+  <!-- S1 -->
+  <div class="section" id="s1">
+    <div class="section-hd"><div class="sec-num">01</div><h2>Information We Collect</h2></div>
+    <p>We collect information you provide directly to us. This includes:</p>
+    <table class="data-table">
+      <thead>
+        <tr><th>Information Type</th><th>When Collected</th><th>Purpose</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Name</td><td>Enquiry / contact form</td><td>Identify and address you</td></tr>
+        <tr><td>Mobile number</td><td>Enquiry / contact form</td><td>Advisor callback</td></tr>
+        <tr><td>Email address</td><td>Enquiry / contact form</td><td>Policy documents, reminders</td></tr>
+        <tr><td>City &amp; age</td><td>Enquiry / calculator</td><td>Relevant product recommendations</td></tr>
+        <tr><td>Insurance interest</td><td>Enquiry form</td><td>Match with right product</td></tr>
+        <tr><td>Job application details</td><td>Careers form</td><td>Recruitment processing</td></tr>
+      </tbody>
+    </table>
+    <div class="highlight" style="margin-top:16px">
+      <p><strong>We do not collect</strong> sensitive financial data such as bank account numbers, credit card details, or Aadhaar numbers through our website forms.</p>
+    </div>
+  </div>
+
+  <!-- S2 -->
+  <div class="section" id="s2">
+    <div class="section-hd"><div class="sec-num">02</div><h2>How We Use Your Information</h2></div>
+    <p>We use the information we collect solely to serve you better:</p>
+    <ul>
+      <li>Respond to your insurance enquiries and provide advisory services</li>
+      <li>Compare and recommend suitable insurance products from licensed insurers</li>
+      <li>Send policy reminders and renewal alerts — only if you have opted in</li>
+      <li>Process job applications submitted through our careers form</li>
+      <li>Improve our website, services, and user experience</li>
+      <li>Comply with legal and regulatory obligations under IRDAI guidelines</li>
+    </ul>
+  </div>
+
+  <!-- S3 -->
+  <div class="section" id="s3">
+    <div class="section-hd"><div class="sec-num">03</div><h2>Sharing of Information</h2></div>
+    <p>We may share your information only in the following circumstances:</p>
+    <ul>
+      <li><strong>Licensed insurance companies</strong> — only to obtain quotes or process applications on your behalf</li>
+      <li><strong>IRDAI or regulatory authorities</strong> — as required by applicable law or regulation</li>
+      <li><strong>Sibling brands</strong> (Finance Matters, HighScore Credit Solutions) — only with your explicit consent</li>
+    </ul>
+    <div class="highlight">
+      <p><strong>We do not sell, rent, or trade your personal data to any third party for marketing or commercial purposes.</strong></p>
+    </div>
+  </div>
+
+  <!-- S4 -->
+  <div class="section" id="s4">
+    <div class="section-hd"><div class="sec-num">04</div><h2>Data Security</h2></div>
+    <p>We take reasonable and appropriate technical and organisational measures to protect your personal data from unauthorised access, alteration, disclosure, or destruction. Our enquiry forms use HTTPS encryption and are processed via EmailJS, a secure third-party email delivery service.</p>
+    <p style="margin-top:10px">However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your data, we cannot guarantee absolute security.</p>
+  </div>
+
+  <!-- S5 -->
+  <div class="section" id="s5">
+    <div class="section-hd"><div class="sec-num">05</div><h2>Cookies</h2></div>
+    <p>Our website may use cookies and similar tracking technologies for the following purposes:</p>
+    <ul>
+      <li><strong>Google Analytics 4</strong> — to understand website traffic, user behaviour, and improve our content</li>
+      <li><strong>Meta Pixel</strong> — to measure the effectiveness of our advertising campaigns</li>
+    </ul>
+    <p style="margin-top:12px">You can disable cookies at any time through your browser settings. Please note that disabling cookies may affect certain features of our website. Continued use of our website implies your consent to our use of cookies as described above.</p>
+  </div>
+
+  <!-- S6 -->
+  <div class="section" id="s6">
+    <div class="section-hd"><div class="sec-num">06</div><h2>Your Rights</h2></div>
+    <p>You have the following rights regarding your personal data held by us:</p>
+    <div class="rights-grid">
+      <div class="right-card">
+        <strong>Access</strong>
+        <span>Request a copy of the personal data we hold about you</span>
+      </div>
+      <div class="right-card">
+        <strong>Correction</strong>
+        <span>Ask us to correct inaccurate or incomplete information</span>
+      </div>
+      <div class="right-card">
+        <strong>Deletion</strong>
+        <span>Request that we delete your personal data from our records</span>
+      </div>
+      <div class="right-card">
+        <strong>Opt-Out</strong>
+        <span>Unsubscribe from any marketing communications at any time</span>
+      </div>
+    </div>
+    <p style="margin-top:16px">To exercise any of these rights, please contact us at <a href="mailto:info@insurancematters.in" style="color:var(--teal);font-weight:600">info@insurancematters.in</a>. We will respond within 15 working days.</p>
+  </div>
+
+  <!-- S7 -->
+  <div class="section" id="s7">
+    <div class="section-hd"><div class="sec-num">07</div><h2>Third-Party Links</h2></div>
+    <p>Our website may contain links to the websites of insurance companies and other third-party services. These links are provided for your convenience. We are not responsible for the privacy practices, content, or security of those external sites. We encourage you to read the privacy policy of any website you visit.</p>
+  </div>
+
+  <!-- S8 -->
+  <div class="section" id="s8">
+    <div class="section-hd"><div class="sec-num">08</div><h2>Changes to This Policy</h2></div>
+    <p>We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. We will notify you of any significant changes by posting the updated policy on this page with a revised "Last Updated" date. Your continued use of our website or services after such changes constitutes your acceptance of the updated policy.</p>
+  </div>
+
+  <!-- S9 -->
+  <div class="section" id="s9">
+    <div class="section-hd"><div class="sec-num">09</div><h2>Contact Us</h2></div>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please reach out:</p>
+    <div class="contact-grid">
+      <div class="ci">
+        <div class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg></div>
+        <div><strong>General Enquiries</strong><span><a href="mailto:info@insurancematters.in">info@insurancematters.in</a></span></div>
+      </div>
+      <div class="ci">
+        <div class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg></div>
+        <div><strong>Business Head</strong><span><a href="mailto:drbabli@insurancematters.in">drbabli@insurancematters.in</a></span></div>
+      </div>
+      <div class="ci">
+        <div class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72"/></svg></div>
+        <div><strong>Phone</strong><span><a href="tel:+919035354316">+91 90353 54316</a></span></div>
+      </div>
+      <div class="ci">
+        <div class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div><strong>Address</strong><span>Finance Matters Advisors, C/o. Hubstairs CoWorks, No 9, 2nd Floor, 27th Main, BTM 1st Stage, Bengaluru - 560068</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER NOTE -->
+  <div class="footer-note">
+    <p>Insurance is the subject matter of solicitation. Insurance Matters Advisors is an IRDAI registered sub-broker. All insurance products are offered subject to the terms, conditions, and exclusions of the respective insurer.</p>
+    <p style="margin-top:8px">© 2026 Insurance Matters Advisors. All rights reserved. &nbsp;·&nbsp; <a href="index.html" style="color:var(--teal)">Back to Website</a> &nbsp;·&nbsp; <a href="terms-and-conditions.html" style="color:var(--teal)">Terms &amp; Conditions</a></p>
+  </div>
+
+</div>
+</body>
+</html>
